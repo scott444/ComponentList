@@ -1,4 +1,4 @@
-﻿namespace ComponentTool;
+﻿namespace ComponentTool.Import;
 
 public class LineItem : LineItemBase
 {

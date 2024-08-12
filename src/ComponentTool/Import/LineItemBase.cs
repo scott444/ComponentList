@@ -1,6 +1,6 @@
-﻿namespace ComponentTool;
+﻿namespace ComponentTool.Import;
 
-public abstract class LineItemBase
+public abstract class LineItemBase : ILineItem
 {
     public int LineNumber { get; set; }
     public int Quantity { get; set; }
